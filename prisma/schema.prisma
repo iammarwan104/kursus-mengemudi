@@ -1,0 +1,41 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model kebersihan {
+  id          Int     @id @default(autoincrement())
+  kepentingan Int
+  kinerja     Int
+  komentar    String?
+}
+
+model skor_kuesioners {
+  id          Int    @id @default(autoincrement())
+  kuesioner   String
+  kepentingan Float
+  kinerja     Float
+}
+
+model sopan_santun {
+  id          Int     @id @default(autoincrement())
+  kepentingan Int
+  kinerja     Int
+  komentar    String?
+}
+
+model sumbu {
+  id       Int    @id @default(autoincrement())
+  sumbu    String
+  kordinat Float
+}
+
+model score {
+  id       Int    @id @default(autoincrement())
+  biru Int 
+  merah Int
+}
