@@ -1,3 +1,10 @@
+import Footers from "./components/Footer";
+import LandingPagePaketBelajar from "./components/LandingPagePaketBelajar";
+import MateriKursus from "./components/MateriKursus";
+import Mentors from "./components/Mentors";
+import Pertanyaan from "./components/Pertanyaan";
+import Testimoni from "./components/Testimoni";
+
 export default function Page() {
   const jenisMobil = [
     {
@@ -19,15 +26,16 @@ export default function Page() {
   ];
   return (
     <>
-     {
-        jenisMobil.map((mobil, index) => {
-            return(
-                <section key={index}>
-                    {mobil.nama}
-                </section>
-            )
-        })
-     }
+      <section className="bg-cuslor-1 py-12 md:pt-10 h-fit md:h-fit lg:h-max px-4 lg:px-24 mx-auto">
+        {jenisMobil.map((mobil, index) => {
+          return <LandingPagePaketBelajar key={index} jenisMobil={mobil} />;
+        })}
+      </section>
+      <MateriKursus />
+      <Mentors />
+      <Testimoni />
+      <Pertanyaan />
+      <Footers/>
     </>
   );
 }

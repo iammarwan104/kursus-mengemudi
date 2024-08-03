@@ -8,6 +8,12 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      'cuslor-1': '#274C77', // dark blue
+      'cuslor-2': '#8B8C89', // gray
+      'cuslor-3': '#E7ECEF', //white bone
+      'cuslor-4': '#FFB923', //Orange
+    },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

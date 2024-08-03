@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <section className="py-12 md:py-0 h-fit md:h-fit lg:h-screen px-4 bg-cuslor-1 lg:px-24 mx-auto flex flex-col-reverse md:flex-row gap-8 justify-end md:justify-between items-end md:items-center ">
-        <div className="w-full text-center md:text-left flex justify-center md:justify-start items-center md:items-start flex-col gap-4 ">
+        <div className="text-white w-full text-center md:text-left flex justify-center md:justify-start items-center md:items-start flex-col gap-4 ">
           <h1 className="text-3xl lg:text-5xl font-semibold">
             Lestari Belajar
           </h1>
@@ -27,7 +27,7 @@ export default function Home() {
         </div>
       </section>
       <section className="py-12 md:py-0 h-fit md:h-fit lg:h-screen px-4 bg-cuslor-1 lg:px-24 mx-auto flex flex-col-reverse md:flex-row-reverse gap-8 justify-end md:justify-between items-end md:items-center ">
-        <div className="w-full text-center md:text-left flex flex-col justify-center md:justify-start items-center md:items-start gap-4 ">
+        <div className="text-white w-full text-center md:text-left flex flex-col justify-center md:justify-start items-center md:items-start gap-4 ">
           <span className="text-sm font-semibold px-6 py-1 rounded-full bg-cuslor-4">
             Standar SKNI
           </span>
@@ -105,7 +105,7 @@ export default function Home() {
         </div>
       </section>
       <section className="py-12 md:py-0 h-fit md:h-fit lg:h-screen px-4 bg-cuslor-1 lg:px-24 mx-auto flex flex-col-reverse md:flex-row gap-8 justify-end md:justify-between items-end md:items-center ">
-        <div className="w-full text-center md:text-left flex justify-center md:justify-start items-center md:items-start flex-col gap-4 ">
+        <div className="text-white w-full text-center md:text-left flex justify-center md:justify-start items-center md:items-start flex-col gap-4 ">
           <span className="text-sm font-semibold px-6 py-1 rounded-full bg-cuslor-4">
             Standar SKNI
           </span>
@@ -183,7 +183,7 @@ export default function Home() {
         </div>
       </section>
       <section className="py-12 md:py-0 h-fit md:h-fit lg:h-screen px-4 bg-cuslor-1 lg:px-24 mx-auto flex flex-col-reverse md:flex-row-reverse gap-8 justify-end md:justify-between items-end md:items-center ">
-        <div className="w-full text-center md:text-left flex flex-col justify-center md:justify-start items-center md:items-start gap-4 ">
+        <div className="text-white w-full text-center md:text-left flex flex-col justify-center md:justify-start items-center md:items-start gap-4 ">
           <span className="text-sm font-semibold px-6 py-1 rounded-full bg-cuslor-4">
             Standar SKNI
           </span>
