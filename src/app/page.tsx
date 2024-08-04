@@ -168,7 +168,7 @@ export default function Home() {
             </p>
           </div>
           <ButtonLandingPage
-            lokasi={"/kursus-mengemudi"}
+            lokasi={"/kursus-komputer"}
             penilaian={"/quesioner"}
           />
         </div>
@@ -247,7 +247,7 @@ export default function Home() {
           </div>
 
           <ButtonLandingPage
-            lokasi={"/kursus-mengemudi"}
+            lokasi={"/kursus-mc-protokol"}
             penilaian={"/quesioner"}
           />
         </div>

@@ -1,4 +1,3 @@
-import Footers from "./components/Footer";
 import LandingPagePaketBelajar from "./components/LandingPagePaketBelajar";
 import MateriKursus from "./components/MateriKursus";
 import Mentors from "./components/Mentors";
@@ -35,7 +34,6 @@ export default function Page() {
       <Mentors />
       <Testimoni />
       <Pertanyaan />
-      <Footers/>
     </>
   );
 }
