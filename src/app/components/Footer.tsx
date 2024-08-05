@@ -103,7 +103,7 @@ export default function Footers() {
               <li 
               onClick={() => handleClick("mc&protokoler")}
               className="text-center w-full lg:w-fit lg:mx-2">
-                <Link href="kurus-mc-protokoler" className="hover:text-cuslor-4 block w-full me-4 text-lg md:me-6">
+                <Link href="kursus-mc-protokoler" className="hover:text-cuslor-4 block w-full me-4 text-lg md:me-6">
                 {
               waitMcProtokoler? 
               <svg

@@ -247,7 +247,7 @@ export default function Home() {
           </div>
 
           <ButtonLandingPage
-            lokasi={"/kursus-mc-protokol"}
+            lokasi={"/kursus-mc-protokoler"}
             penilaian={"/quesioner"}
           />
         </div>

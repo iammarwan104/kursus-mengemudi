@@ -22,7 +22,7 @@ export default function LandingPagePaketBelajar({
             <h1 className="text-3xl lg:text-5xl font-semibold">
               {jenisMobil.nama}
             </h1>
-            <p className="w-[80%]">{jenisMobil.deskripsi}</p>
+            <p className="w-[90%] sm:w-[80%]">{jenisMobil.deskripsi}</p>
           </div>
           <div className="w-full flex justify-center items-center">
                 <Image

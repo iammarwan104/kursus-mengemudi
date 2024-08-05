@@ -17,8 +17,8 @@ export default function LandingPagePaketBelajar({
 }) {
   return (
     <>
-        <div className="flex flex-col-reverse md:flex-row gap-8 md:gap-0 justify-end md:justify-between items-end md:items-center">
-          <div className= "text-white sm:w-[50vw] md:w-[50vw] lg:w-[50vw] text-center md:text-left flex justify-center md:justify-start items-center md:items-start flex-col gap-4 ">
+        <div className="flex flex-col-reverse md:flex-row gap-8 md:gap-0 justify-center md:justify-between items-center md:items-center">
+          <div className= "text-white sm:w-[80vw] md:w-[50vw] lg:w-[50vw] text-center md:text-left flex justify-center md:justify-start items-center md:items-start flex-col gap-4">
             <h1 className="text-3xl lg:text-5xl font-semibold">
               {jenisMobil.nama}
             </h1>
